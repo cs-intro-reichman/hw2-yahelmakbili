@@ -3,7 +3,7 @@ public class Cheers {
                 // קלט מילה ומספר
                 String word = args[0];
                 int N = Integer.parseInt(args[1]);
-                String vowels = "AEOIUaeoui";
+                String vowels = "AEFHILMNORSX";
                 int i = 0;
                 // מדפיסה כל אות
                 while (i < word.length()) {
