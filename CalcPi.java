@@ -7,10 +7,9 @@ public class CalcPi {
 		double numerator = 1;
 		double denominator = 1;
 		double piApproximated = 0;
-		int i = 0;
-		// חישוב לפי הנוסחה
 
-		for (i = 0; i < N; i++) {
+		// חישוב לפי הנוסחה
+		for (int i = 0; i < N; i++) {
 			if (i % 2 == 0) {
 				piApproximated += (numerator / denominator);
 			} else {
@@ -18,7 +17,6 @@ public class CalcPi {
 			}
 			// נוסיף למכנה ונגדיל את איי
 			denominator += 2;
-			i++;
 		}
 		piApproximated *= 4;
 		System.out.println("pi according to Java: " + pi);
