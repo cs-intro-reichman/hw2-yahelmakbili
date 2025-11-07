@@ -2,6 +2,7 @@ public class Cheers {
         public static void main(String[] args) {
                 // קלט מילה ומספר
                 String word = args[0];
+                word = word.toUpperCase();
                 int N = Integer.parseInt(args[1]);
                 String vowels = "AEFHILMNORSX";
                 int i = 0;
