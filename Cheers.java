@@ -9,9 +9,9 @@ public class Cheers {
                 while (i < word.length()) {
                         char o = word.charAt(i);
                         if (vowels.indexOf(o) == -1) {
-                                System.out.println("Give me a  " + o + ":" + o + "!");
+                                System.out.println("Give me a  " + o + ": " + o + "!");
                         } else {
-                                System.out.println("Give me an " + o + ":" + o + "!");
+                                System.out.println("Give me an " + o + ": " + o + "!");
                         }
                         i++;
                 }
