@@ -5,7 +5,7 @@ public class Collatz {
 
 		for (int seed = 1; seed <= N; seed++) {
 			int n = seed;
-			int length = 0; // מספר הערכים שמודפסים, כולל 1
+			int length = 1; // מספר הערכים שמודפסים, כולל 1
 
 			if (mode.equals("v")) {
 				// מדפיסים את כל ערכי הרצף עד 1 (כולל)
